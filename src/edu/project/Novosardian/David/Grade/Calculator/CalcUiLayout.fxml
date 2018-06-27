@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" nodeOrientation="LEFT_TO_RIGHT" prefHeight="631.0" prefWidth="377.0" styleClass="root" stylesheets="@style.css" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.project.Novosardian.David.Grade.Calculator.CalcUiController">
+    <children>
+
+      <Label layoutX="32.0" layoutY="7.0" text="Participation" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtParticipationActual" layoutX="81.0" layoutY="48.0" prefHeight="35.0" prefWidth="78.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtParticipationTotal" layoutX="81.0" layoutY="102.0" prefHeight="35.0" prefWidth="78.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtParticipationWeight" layoutX="81.0" layoutY="154.0" prefHeight="35.0" prefWidth="78.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Label layoutX="14.0" layoutY="52.0" prefHeight="26.0" prefWidth="67.0" text="Recieved " textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="106.0" prefHeight="26.0" prefWidth="67.0" text="Total" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="158.0" prefHeight="26.0" prefWidth="67.0" text="Weight %" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="215.0" layoutY="7.0" text="Quizzes" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtQuizActual" layoutX="244.0" layoutY="48.0" prefHeight="35.0" prefWidth="78.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtQuizTotal" layoutX="244.0" layoutY="102.0" prefHeight="35.0" prefWidth="78.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtQuizWeight" layoutX="244.0" layoutY="154.0" prefHeight="35.0" prefWidth="78.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Label layoutX="177.0" layoutY="52.0" prefHeight="26.0" prefWidth="67.0" text="Recieved " textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="177.0" layoutY="106.0" prefHeight="26.0" prefWidth="67.0" text="Total" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="177.0" layoutY="158.0" prefHeight="26.0" prefWidth="67.0" text="Weight %" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="35.0" layoutY="393.0" text="Programming &#10;Assignments" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtAssignmentsActual" layoutX="83.0" layoutY="447.0" prefHeight="35.0" prefWidth="78.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtAssignmentsTotal" layoutX="83.0" layoutY="501.0" prefHeight="35.0" prefWidth="78.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtAssignmentsWeight" layoutX="83.0" layoutY="553.0" prefHeight="35.0" prefWidth="78.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Label layoutX="16.0" layoutY="451.0" prefHeight="26.0" prefWidth="67.0" text="Recieved " textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="16.0" layoutY="505.0" prefHeight="26.0" prefWidth="67.0" text="Total" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="16.0" layoutY="557.0" prefHeight="26.0" prefWidth="67.0" text="Weight %" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="206.0" text="Final Project" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtFinalActual" layoutX="86.0" layoutY="247.0" prefHeight="35.0" prefWidth="78.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtFinalTotal" layoutX="86.0" layoutY="301.0" prefHeight="35.0" prefWidth="78.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtFinalWeight" layoutX="86.0" layoutY="353.0" prefHeight="35.0" prefWidth="78.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Label layoutX="19.0" layoutY="251.0" prefHeight="26.0" prefWidth="67.0" text="Recieved " textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="19.0" layoutY="305.0" prefHeight="26.0" prefWidth="67.0" text="Total" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="19.0" layoutY="357.0" prefHeight="26.0" prefWidth="67.0" text="Weight %" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="204.0" layoutY="189.0" text="Final Project&#10;Presentation" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtPresentationActual" layoutX="253.0" layoutY="247.0" prefHeight="35.0" prefWidth="78.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtPresentationTotal" layoutX="253.0" layoutY="301.0" prefHeight="35.0" prefWidth="78.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtPresentationWeight" layoutX="253.0" layoutY="353.0" prefHeight="35.0" prefWidth="78.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Label layoutX="186.0" layoutY="251.0" prefHeight="26.0" prefWidth="67.0" text="Recieved " textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="186.0" layoutY="305.0" prefHeight="26.0" prefWidth="67.0" text="Total" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Pane layoutX="171.0" layoutY="390.0" opacity="0.11" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" />
+        <Button fx:id="btnCalcGrade" layoutX="186.0" layoutY="403.0" onAction="#btnClick" stylesheets="@button.css" text="Calculate Grade">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="186.0" layoutY="357.0" prefHeight="26.0" prefWidth="67.0" text="Weight %" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="186.0" layoutY="469.0" prefHeight="52.0" prefWidth="67.0" text="Total &#10;Points " textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="186.0" layoutY="530.0" prefHeight="52.0" prefWidth="67.0" text="Letter &#10;Grade " textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtTotalPoints" editable="false" layoutX="253.0" layoutY="478.0" prefHeight="35.0" prefWidth="78.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtLetterGrade" editable="false" layoutX="253.0" layoutY="539.0" prefHeight="35.0" prefWidth="78.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+    </children>
+</AnchorPane>
